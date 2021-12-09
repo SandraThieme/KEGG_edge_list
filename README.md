@@ -17,9 +17,9 @@ the resulting edge list will be saved to a file named 'kegg_edge_list_ORGANISM.c
 
 ## Parameters
 ```
-ORGANISM KEGG organism abbreviation, please find them all here: https://www.genome.jp/kegg/catalog/org_list.html
-delete_dir If the folder with downloaded KEGG KGML files should be deleted after processing
-only_c_compounds If only compounds with a compound 'C' number in KEGG should be included in the edge list (recommended)
+ORGANISM:  KEGG organism abbreviation, please find them all here: https://www.genome.jp/kegg/catalog/org_list.html
+delete_dir: If the folder with downloaded KEGG KGML files should be deleted after processing
+only_c_compounds: If only compounds with a compound 'C' number in KEGG should be included in the edge list (recommended)
 ```
 ## Usage 
 ```
