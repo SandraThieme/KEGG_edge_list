@@ -134,11 +134,11 @@ make_edge_list_from_kegg = function(ORGANISM,delete_dir=T,only_c_compounds=T){
   system2('mkdir',args = ('KGML_files'))
   #set as working directory
   setwd("./KGML_files")
-  WD = getwd()
+  #WD = getwd()
 
   download_kegg_kgml(ORGANISM)
   #do pre-processing using kegg_kgml.sh in bash
-  system2('cp',args = c('../kegg_kgml.sh',WD))
+  system2('cp',args = c('../kegg_kgml.sh','.'))
   system2('./kegg_kgml.sh')
   entry_df = make_edge_list_entry()
   entry_df = entry_df[!is.na(entry_df$reaction),]
