@@ -24,3 +24,13 @@ edge_list = make_edge_list_from_kegg(ORGANISM,delete_dir=T,only_c_compounds=T)
 edge_list_ath = make_edge_list_from_kegg('ath',delete_dir=T,only_c_compounds=T)
 ```
 The resulting edge list will be saved to a file named 'kegg_edge_list_ORGANISM.csv'
+
+## Reference
+
+Sandra Thieme, Dirk Walther
+
+Biclique extension as an effective approach to identify missing links in metabolic compound–protein interaction networks
+
+Bioinformatics Advances, Volume 2, Issue 1, 2022, vbac001
+
+https://doi.org/10.1093/bioadv/vbac001
