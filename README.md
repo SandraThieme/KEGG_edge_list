@@ -27,10 +27,5 @@ The resulting edge list will be saved to a file named 'kegg_edge_list_ORGANISM.c
 
 ## Reference
 
-Sandra Thieme, Dirk Walther
-
-Biclique extension as an effective approach to identify missing links in metabolic compound–protein interaction networks
-
-Bioinformatics Advances, Volume 2, Issue 1, 2022, vbac001
-
-https://doi.org/10.1093/bioadv/vbac001
+Sandra Thieme and Dirk Walther. Biclique extension as an effective approach to identify missing links in metabolic compound–protein interaction networks.
+Bioinformatics Advances, Volume 2, Issue 1, 2022, vbac001. https://doi.org/10.1093/bioadv/vbac001
